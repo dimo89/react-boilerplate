@@ -9,6 +9,7 @@ React - framework
 PostCSS - styling
 Jest/Enzyme - testing
 Webpack - bundling
+Eslint - linting (airbnb)
 ```
 
 ## Installation
@@ -24,3 +25,4 @@ Webpack - bundling
 |npm start|Runs webpack dev server and serves the development version of the application on localhost:3000|
 |npm run build|Builds the production version of the application|
 |npm run test|Runs test using Jest/Enzyme|
+|npm run lint|Runs lint using eslint with airbnb config|

@@ -5,11 +5,14 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: './src/index.jsx',
   },
   output: {
     filename: '[name].[hash].js',
     path: path.resolve('./dist'),
+  },
+  resolve: {
+    extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx'],
   },
   module: {
     rules: [
