@@ -8,5 +8,5 @@ describe('App', () => {
 
     expect(wrapper.find('div').text()).toBe('React Boilerplate');
     expect(wrapper).toMatchSnapshot
-  })
+  });
 });
