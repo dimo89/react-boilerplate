@@ -1,9 +1,10 @@
 import React from 'react';
+import './styles.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div>React Boilerplate</div>
+      <div className="App">React Boilerplate</div>
     )
   }
 }
